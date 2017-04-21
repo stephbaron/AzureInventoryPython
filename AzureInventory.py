@@ -84,8 +84,9 @@ for virtualNetwork in network_client.virtual_networks.list_all():
                 oSubnetRouteTable,\
                 oVnicName,\
                 oVnicPrivateIpAddress,\
-                oVnicPrivateIpAllocationMethod)
+                oVnicPrivateIpAllocationMethod))
 writeCSV('Network',csvNetwork)
+                              
 
 #---------------------------------------------------
 #   Virutal Machines
@@ -98,5 +99,5 @@ for virtual_machine in virtual_machines:
     vmLocation = virtual_machine.location
     vmHardwareProfile = virtual_machine.hardwareProfile.vmSize
     vmOSDisk = virtual_machine.StorageProfile.osDisk.vhd.uri
-    csvVirtualMachines += str("%s,%s,%s,%s"%(vmName,vmLocation,vmHardwareProfile,vmOSDisk))
+    csvVirtualMachines += str("%s,%s,%s,%s\n"%(vmName,vmLocation,vmHardwareProfile,vmOSDisk))
 writeCSV('VirtualMachines',csvVirtualMachines)
