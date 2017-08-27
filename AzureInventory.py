@@ -5,7 +5,7 @@
 # Author: Kyle Liu(Kaichun)
 # Email: 50533292@qq.com
 #
-# The script gathers some inventory information from
+# The script gathers some inventory information via python from
 # azure and save to local machine at c:\AzureInventory as .csv
 #
 # Network Security Groups and Storage Accounts are not implemented.
