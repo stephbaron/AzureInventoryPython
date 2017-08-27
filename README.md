@@ -1,1 +1,1 @@
-# Azure Inventory - Python
+# Azure Inventory - Python Based
