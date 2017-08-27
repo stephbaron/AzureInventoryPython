@@ -1,1 +1,1 @@
-# AzureInventoryPython
+# Azure Inventory - Python
