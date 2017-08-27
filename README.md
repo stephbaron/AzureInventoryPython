@@ -1,1 +1,1 @@
-# AzureInventoryPythonStuph
+# AzureInventoryPython
